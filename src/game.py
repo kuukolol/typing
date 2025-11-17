@@ -2,7 +2,17 @@ import pygame
 import os
 import random
 import math
-from .constants import SCREEN_WIDTH, SCREEN_HEIGHT, FPS, WHITE, GREEN, YELLOW, RED, DARK_GRAY, GRAY
+from .constants import (
+    SCREEN_WIDTH,
+    SCREEN_HEIGHT,
+    FPS,
+    WHITE,
+    GREEN,
+    YELLOW,
+    RED,
+    DARK_GRAY,
+    GRAY,
+)
 from .brain import Brain
 from .zombie import Zombie, ZombieData
 
@@ -445,4 +455,3 @@ class TypingGame:
                 self.draw()
 
             pygame.display.flip()
-
